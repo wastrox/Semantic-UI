@@ -1,0 +1,9 @@
+/*******************************
+         Theme Overrides
+*******************************/
+[type="checkbox"]{
+  border-radius:2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}

@@ -1,0 +1,47 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.pagination.menu .active.item {
+  color: inherit;
+  font-size: 1em;
+  padding: 8px;
+  justify-content: space-around;
+}
+.ui.pagination.menu .item{
+  background-color: @greyBackground;
+  margin: 0 1px 0 1px;
+  min-width: 32px;
+  height: 32px;
+  padding: 8px;
+  justify-content: space-around;
+}
+.ui.menu .item.disabled{
+  background-color: @greyBackground !important;
+}
+.ui.menu .item.disabled:hover{
+  background-color: @greyBackground !important;
+}
+.ui.pagination.menu .item:hover{
+  background-color: @transparentBlack;
+}
+.ui.pagination.menu .item:last-child{
+  margin-right:0;
+    border-radius:0 3px 3px 0;
+
+}
+.ui.pagination.menu .item:first-child{
+  margin-left:0;
+  border-radius:3px 0 0 3px;
+}
+.ui.menu .item:before{
+  background: transparent;
+}
+.ui.menu{
+  min-height:32px;
+}
+.ui.pagination.menu{
+  border: none;
+  box-shadow:none;
+}
+

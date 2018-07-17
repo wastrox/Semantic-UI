@@ -22,9 +22,9 @@
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-radius: 0.28571429rem;
+  border-radius: 0.14285714rem;
   text-align: left;
-  color: rgba(0, 0, 0, 0.87);
+  color: #01193C;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -55,9 +55,9 @@
 }
 .ui.table thead th {
   cursor: auto;
-  background: #F9FAFB;
+  background: #F0F1F9;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: #01193C;
   padding: 0.92857143em 0.78571429em;
   vertical-align: inherit;
   font-style: none;
@@ -70,13 +70,13 @@
   border-left: none;
 }
 .ui.table thead tr:first-child > th:first-child {
-  border-radius: 0.28571429rem 0em 0em 0em;
+  border-radius: 0.14285714rem 0em 0em 0em;
 }
 .ui.table thead tr:first-child > th:last-child {
-  border-radius: 0em 0.28571429rem 0em 0em;
+  border-radius: 0em 0.14285714rem 0em 0em;
 }
 .ui.table thead tr:first-child > th:only-child {
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.14285714rem 0.14285714rem 0em 0em;
 }
 
 /* Footer */
@@ -89,24 +89,24 @@
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   background: #F9FAFB;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: #01193C;
   padding: 0.78571429em 0.78571429em;
   vertical-align: middle;
-  font-style: normal;
-  font-weight: normal;
+  font-style: regular;
+  font-weight: regular;
   text-transform: none;
 }
 .ui.table tfoot tr > th:first-child {
   border-left: none;
 }
 .ui.table tfoot tr:first-child > th:first-child {
-  border-radius: 0em 0em 0em 0.28571429rem;
+  border-radius: 0em 0em 0em 0.14285714rem;
 }
 .ui.table tfoot tr:first-child > th:last-child {
-  border-radius: 0em 0em 0.28571429rem 0em;
+  border-radius: 0em 0em 0.14285714rem 0em;
 }
 .ui.table tfoot tr:first-child > th:only-child {
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.14285714rem 0.14285714rem;
 }
 
 /* Table Row */
@@ -246,7 +246,7 @@
 .ui.definition.table thead:not(.full-width) th:first-child {
   pointer-events: none;
   background: transparent;
-  font-weight: normal;
+  font-weight: regular;
   color: rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: -1px -1px 0px 1px #FFFFFF;
           box-shadow: -1px -1px 0px 1px #FFFFFF;
@@ -255,7 +255,7 @@
   pointer-events: none;
   background: transparent;
   font-weight: rgba(0, 0, 0, 0.4);
-  color: normal;
+  color: regular;
   -webkit-box-shadow: 1px 1px 0px 1px #FFFFFF;
           box-shadow: 1px 1px 0px 1px #FFFFFF;
 }
@@ -368,13 +368,13 @@
 
 .ui.table tr.active,
 .ui.table td.active {
-  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
-          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
+  -webkit-box-shadow: 0px 0px 0px #01193C inset;
+          box-shadow: 0px 0px 0px #01193C inset;
 }
 .ui.table tr.active,
 .ui.table td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: #01193C !important;
 }
 
 /*--------------
@@ -502,7 +502,7 @@
 
 .ui.selectable.table tbody tr:hover,
 .ui.table tbody tr td.selectable:hover {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: #DBDEEB !important;
   color: rgba(0, 0, 0, 0.95) !important;
 }
 .ui.selectable.inverted.table tbody tr:hover,
@@ -538,7 +538,7 @@
 .ui.table tr td.selectable.active:hover,
 .ui.selectable.table tr:hover td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: #01193C !important;
 }
 .ui.selectable.table tr.positive:hover,
 .ui.table tr td.selectable.positive:hover,
@@ -580,7 +580,7 @@
   margin-bottom: 0em;
   top: 0px;
   margin-top: 1em;
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.14285714rem 0.14285714rem 0em 0em;
 }
 .ui.table[class*="top attached"]:first-child {
   margin-top: 0em;
@@ -594,7 +594,7 @@
   margin-bottom: 1em;
   -webkit-box-shadow: none, none;
           box-shadow: none, none;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.14285714rem 0.14285714rem;
 }
 .ui[class*="bottom attached"].table:last-child {
   margin-bottom: 0em;
@@ -643,10 +643,10 @@
 
 /* Red */
 .ui.red.table {
-  border-top: 0.2em solid #DB2828;
+  border-top: 0.2em solid #E40000;
 }
 .ui.inverted.red.table {
-  background-color: #DB2828 !important;
+  background-color: #E40000 !important;
   color: #FFFFFF !important;
 }
 
@@ -697,10 +697,10 @@
 
 /* Blue */
 .ui.blue.table {
-  border-top: 0.2em solid #2185D0;
+  border-top: 0.2em solid #2987CD;
 }
 .ui.inverted.blue.table {
-  background-color: #2185D0 !important;
+  background-color: #2987CD !important;
   color: #FFFFFF !important;
 }
 
@@ -742,10 +742,10 @@
 
 /* Grey */
 .ui.grey.table {
-  border-top: 0.2em solid #767676;
+  border-top: 0.2em solid #5F6273;
 }
 .ui.inverted.grey.table {
-  background-color: #767676 !important;
+  background-color: #5F6273 !important;
   color: #FFFFFF !important;
 }
 
@@ -887,7 +887,7 @@
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #01193C;
 }
 .ui.sortable.table thead th:first-child {
   border-left: none;
@@ -902,7 +902,7 @@
 .ui.sortable.table thead th:after {
   display: none;
   font-style: normal;
-  font-weight: normal;
+  font-weight: regular;
   text-decoration: inherit;
   content: '';
   height: 1em;
@@ -924,13 +924,13 @@
   color: rgba(40, 40, 40, 0.3);
 }
 .ui.sortable.table thead th:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: #DBDEEB;
   color: rgba(0, 0, 0, 0.8);
 }
 
 /* Sorted */
 .ui.sortable.table thead th.sorted {
-  background: rgba(0, 0, 0, 0.05);
+  background: #DBDEEB;
   color: rgba(0, 0, 0, 0.95);
 }
 .ui.sortable.table thead th.sorted:after {
@@ -939,21 +939,21 @@
 
 /* Sorted Hover */
 .ui.sortable.table thead th.sorted:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: #DBDEEB;
   color: rgba(0, 0, 0, 0.95);
 }
 
 /* Inverted */
 .ui.inverted.sortable.table thead th.sorted {
-  background: rgba(255, 255, 255, 0.15) -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
-  background: rgba(255, 255, 255, 0.15) -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: rgba(255, 255, 255, 0.15) linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: rgba(255, 255, 255, 0.15) -webkit-gradient(linear, left top, left bottom, from(transparent), to(#DBDEEB));
+  background: rgba(255, 255, 255, 0.15) -webkit-linear-gradient(transparent, #DBDEEB);
+  background: rgba(255, 255, 255, 0.15) linear-gradient(transparent, #DBDEEB);
   color: #ffffff;
 }
 .ui.inverted.sortable.table thead th:hover {
-  background: rgba(255, 255, 255, 0.08) -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
-  background: rgba(255, 255, 255, 0.08) -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: rgba(255, 255, 255, 0.08) linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: rgba(255, 255, 255, 0.08) -webkit-gradient(linear, left top, left bottom, from(transparent), to(#DBDEEB));
+  background: rgba(255, 255, 255, 0.08) -webkit-linear-gradient(transparent, #DBDEEB);
+  background: rgba(255, 255, 255, 0.08) linear-gradient(transparent, #DBDEEB);
   color: #ffffff;
 }
 .ui.inverted.sortable.table thead th {
@@ -1032,7 +1032,7 @@
   background: transparent;
 }
 .ui.basic.striped.table tbody tr:nth-child(2n) {
-  background-color: rgba(0, 0, 0, 0.05) !important;
+  background-color: #DBDEEB !important;
 }
 
 /* Very Basic */
@@ -1129,6 +1129,13 @@
 /* Large */
 .ui.large.table {
   font-size: 1.1em;
+}
+.ui table {
+  table-layout: auto;
+}
+.ui table thead {
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75) !important;
+          box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75) !important;
 }
 
 

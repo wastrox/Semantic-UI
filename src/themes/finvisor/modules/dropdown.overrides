@@ -1,0 +1,21 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+.ui.fluid.dropdown{
+ min-width: 90px;
+ font-size:0.857em;
+ font-weight: initial;
+ padding: 3px;
+ min-height: 20px;
+ margin: 3px 0;
+}
+.ui.fluid.dropdown > .dropdown.icon{
+  padding:0;
+  right: 5px;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: @inputPlaceholderColor;
+}

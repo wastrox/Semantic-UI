@@ -88,7 +88,7 @@
 
 /* Whole Page */
 body.pushable {
-  background: #545454 !important;
+  background: #01193C !important;
 }
 
 /* Page Context */
@@ -614,12 +614,6 @@ body.pushable > .pusher {
   -webkit-transform: scale(0.75);
           transform: scale(0.75);
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************

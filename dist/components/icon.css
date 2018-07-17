@@ -18,7 +18,7 @@
   src: url("./../themes/default/assets/fonts/icons.eot");
   src: url("./../themes/default/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("./../themes/default/assets/fonts/icons.woff2") format('woff2'), url("./../themes/default/assets/fonts/icons.woff") format('woff'), url("./../themes/default/assets/fonts/icons.ttf") format('truetype'), url("./../themes/default/assets/fonts/icons.svg#icons") format('svg');
   font-style: normal;
-  font-weight: normal;
+  font-weight: regular;
   font-variant: normal;
   text-decoration: inherit;
   text-transform: none;
@@ -31,7 +31,7 @@ i.icon {
   height: 1em;
   font-family: 'Icons';
   font-style: normal;
-  font-weight: normal;
+  font-weight: regular;
   text-decoration: inherit;
   text-align: center;
   speak: none;
@@ -221,14 +221,14 @@ i.inverted.icon {
 
 /* Red */
 i.red.icon {
-  color: #DB2828 !important;
+  color: #E40000 !important;
 }
 i.inverted.red.icon {
   color: #FF695E !important;
 }
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
-  background-color: #DB2828 !important;
+  background-color: #E40000 !important;
   color: #FFFFFF !important;
 }
 
@@ -299,14 +299,14 @@ i.inverted.circular.teal.icon {
 
 /* Blue */
 i.blue.icon {
-  color: #2185D0 !important;
+  color: #2987CD !important;
 }
 i.inverted.blue.icon {
   color: #54C8FF !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
-  background-color: #2185D0 !important;
+  background-color: #2987CD !important;
   color: #FFFFFF !important;
 }
 
@@ -364,14 +364,14 @@ i.inverted.circular.brown.icon {
 
 /* Grey */
 i.grey.icon {
-  color: #767676 !important;
+  color: #5F6273 !important;
 }
 i.inverted.grey.icon {
-  color: #DCDDDE !important;
+  color: #DBDEEB !important;
 }
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
-  background-color: #767676 !important;
+  background-color: #5F6273 !important;
   color: #FFFFFF !important;
 }
 
@@ -380,7 +380,7 @@ i.black.icon {
   color: #1B1C1D !important;
 }
 i.inverted.black.icon {
-  color: #545454 !important;
+  color: #01193C !important;
 }
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {
@@ -4069,7 +4069,7 @@ i.icon.youtube.play:before {
   src: url("./../themes/default/assets/fonts/outline-icons.eot");
   src: url("./../themes/default/assets/fonts/outline-icons.eot?#iefix") format('embedded-opentype'), url("./../themes/default/assets/fonts/outline-icons.woff2") format('woff2'), url("./../themes/default/assets/fonts/outline-icons.woff") format('woff'), url("./../themes/default/assets/fonts/outline-icons.ttf") format('truetype'), url("./../themes/default/assets/fonts/outline-icons.svg#icons") format('svg');
   font-style: normal;
-  font-weight: normal;
+  font-weight: regular;
   font-variant: normal;
   text-decoration: inherit;
   text-transform: none;
@@ -4455,7 +4455,7 @@ i.icon.star.empty:before {
   src: url("./../themes/default/assets/fonts/brand-icons.eot");
   src: url("./../themes/default/assets/fonts/brand-icons.eot?#iefix") format('embedded-opentype'), url("./../themes/default/assets/fonts/brand-icons.woff2") format('woff2'), url("./../themes/default/assets/fonts/brand-icons.woff") format('woff'), url("./../themes/default/assets/fonts/brand-icons.ttf") format('truetype'), url("./../themes/default/assets/fonts/brand-icons.svg#icons") format('svg');
   font-style: normal;
-  font-weight: normal;
+  font-weight: regular;
   font-variant: normal;
   text-decoration: inherit;
   text-transform: none;

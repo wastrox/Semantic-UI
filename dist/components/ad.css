@@ -240,7 +240,7 @@
 }
 .ui.test.ad {
   position: relative;
-  background: #545454;
+  background: #01193C;
 }
 .ui.test.ad:after {
   position: absolute;
@@ -261,12 +261,6 @@
 .ui.test.ad[data-text]:after {
   content: attr(data-text);
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************
