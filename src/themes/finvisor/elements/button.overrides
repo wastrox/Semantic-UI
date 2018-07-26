@@ -1,3 +1,17 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.modal .actions > .button {
+  background-color: #F0F1F9;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+.ui.modal .actions > .button:hover {
+  background-color: #DBDEEB;
+}
+.ui.modal > .actions {
+  border-top: none !important;
+  background: none !important;
+}
+.ui.modal > .header {
+  border-bottom: none !important;
+}
