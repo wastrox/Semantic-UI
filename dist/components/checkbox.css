@@ -624,6 +624,14 @@
 .dash:before  { content: '\e801'; }
 .plus:before { content: '\e802'; }
 */
+.ui.toggle.checkbox input:focus:checked ~ .box:before,
+.ui.toggle.checkbox input:focus:checked ~ label:before {
+  background-color: teal !important;
+}
+.ui.toggle.checkbox .box:before,
+.ui.toggle.checkbox label:before {
+  background-color: grey;
+}
 
 
 /*******************************

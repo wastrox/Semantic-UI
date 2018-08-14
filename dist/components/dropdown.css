@@ -81,7 +81,7 @@
   position: relative;
   width: auto;
   font-size: 0.85714286em;
-  margin: 0em 0em 0em 1em;
+  margin: 0em 1em 0em 1em;
 }
 .ui.dropdown .menu > .item .dropdown.icon {
   width: auto;
@@ -548,7 +548,7 @@ select.ui.dropdown {
 
 /* Search Selection */
 .ui.search.dropdown {
-  min-width: '';
+  min-width: 90px;
 }
 
 /* Search Dropdown */
@@ -1447,12 +1447,20 @@ select.ui.dropdown {
 *******************************/
 
 .ui.fluid.dropdown {
-  min-width: 90px;
-  font-size: 0.857em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  max-width: 300px;
+  font-size: 1em;
   font-weight: initial;
-  padding: 3px;
-  min-height: 20px;
-  margin: 3px 0;
+  padding: 8px;
+  min-height: 32px;
 }
 .ui.fluid.dropdown > .dropdown.icon {
   padding: 0;

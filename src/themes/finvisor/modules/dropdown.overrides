@@ -4,12 +4,14 @@
 
 
 .ui.fluid.dropdown{
-   min-width: 90px;
-   font-size:0.857em;
-   font-weight: initial;
-   padding: 8px 9px;
-   min-height: 30px;
-   margin: 3px 0;
+  display: flex;
+  align-items:center;
+  justify-content: initial;
+  max-width: 300px;
+  font-size:1em;
+  font-weight: initial;
+  padding:8px;
+  min-height: 32px;
 }
 .ui.fluid.dropdown > .dropdown.icon{
   padding:0;

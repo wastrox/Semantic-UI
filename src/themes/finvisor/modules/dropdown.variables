@@ -20,7 +20,7 @@
 
 /* Icon */
 @dropdownIconSize: @relative12px;
-@dropdownIconMargin: 0em 0em 0em 1em;
+@dropdownIconMargin: 0em 1em 0em 1em;
 
 /* Current Text */
 @textTransition: none;
@@ -217,7 +217,7 @@
      Search
 --------------*/
 
-@searchMinWidth: '';
+@searchMinWidth: 90px;
 
 /* Search Selection */
 @searchSelectionLineHeight: @inputLineHeight;
