@@ -626,7 +626,7 @@
 */
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: teal !important;
+  background-color: teal;
 }
 .ui.toggle.checkbox .box:before,
 .ui.toggle.checkbox label:before {
